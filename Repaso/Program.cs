@@ -8,10 +8,12 @@
  * Metodos clase persona:
  *  Camine
  *  Trabaje
+ *  -----------------------------
  * Atributos clase negocio:
  *  Nombre
  *  Direccion
  *  Telefono
+ *  -----------------------------
  * Atributos clase flores:
  *  Especie
  *  Color
@@ -26,6 +28,6 @@ using Repaso;//Nombre de espacio del proyecto (Libreria)
 //Instancia del objeto 
 Persona persona1 = new Persona("Juan", 19, 276123456);
 
-//Acceso aa los metodos del objeto persona 1
+//Acceso a los metodos del objeto persona 1
 persona1.Caminar();
 persona1.Trabajar(); 
