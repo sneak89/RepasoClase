@@ -47,4 +47,16 @@ else
     condicion = false; 
 }
 
-flores.hacerRamo(condicion); 
+flores.hacerRamo(condicion);
+
+
+//Se mandan a traer los 3 metodos con el mismo nombre
+//diferentes parametros...
+Console.WriteLine("------------------------");
+persona1.Ganancia();
+Console.WriteLine("------------------------");
+persona1.Ganancia(persona1.ingresosDia, persona1.gastos);
+Console.WriteLine("------------------------");
+double total = persona1.Ganancia(persona1.ingresosDia, persona1.gastos, 25);
+Console.WriteLine("La ganancia por mes es: " + total);
+
